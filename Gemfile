@@ -99,5 +99,9 @@ gem 'activerecord-nulldb-adapter'
 # improved JSON rendering performance
 gem 'oj'
 
+# Faraday to work with HTTP requests
+gem 'faraday'
+
 # Fix SCSS errors with Ruby 3 on MacOS
 gem 'sassc', github: 'sass/sassc-ruby', group: :development
+gem 'debug', group: :development
